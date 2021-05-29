@@ -140,7 +140,6 @@ class RobotTest extends TestCase
 		
 		App::pileOver(2, 5, $blocks, $positions);
 		
-		print_r($positions);
 		$this->assertEquals($blocks, [
 			0 => 0,
 			1 => 1,
